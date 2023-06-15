@@ -1,4 +1,2 @@
 #!/bin/bash
-main.c#include <stdio.h> intmain()
-{printf("%s",$CFILE);
-	return 0;}
+gcc -E $CFILE -o c
