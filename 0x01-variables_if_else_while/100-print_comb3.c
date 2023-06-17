@@ -16,10 +16,10 @@ int main(void)
 		{
 			if (p != d)
 			{
-				putchar(p);
-					putchar(d);
+			putchar(p);
+			putchar(d);
 			if (d == '8' && p == '9')
-				continue;
+			continue;
 			putchar(',');
 			putchar(' ');
 			}
@@ -28,4 +28,4 @@ int main(void)
 			putchar('\n');
 
 			return (0);
-	}
+}
