@@ -1,0 +1,1 @@
+functins nested and loops
