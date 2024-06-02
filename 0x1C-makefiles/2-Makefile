@@ -1,5 +1,6 @@
 # My sexond makefile..
 
+
 CC = gcc
 SRC = main.c school.c
 OBJ = ${SRC:%.c=%.0}
