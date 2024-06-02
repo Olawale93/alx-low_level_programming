@@ -1,0 +1,10 @@
+# My sexond makefile..
+
+CC = gcc
+SRC = main.c school.c
+OBJ = ${SRC:%.c=%.0}
+NAME = school
+RM = rm -f
+
+all: ${OBJ}
+	${CC} ${OBJ} -o ${NAME}
