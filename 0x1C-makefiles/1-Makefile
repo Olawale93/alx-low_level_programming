@@ -1,6 +1,10 @@
-# gcc and two variables for makefile
+# Creating my first useful Makefile.
 
-CC= gcc
-SRC= main.c school.c
+CC = gcc
+
+# Defining the source files
+SRC = main.c school.c
+
+# Defining the rules
 all: ${SRC}
-	${CC} ${SRC} -0 school
+	${CC} ${SRC} -o school
