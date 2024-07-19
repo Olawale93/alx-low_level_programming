@@ -13,7 +13,7 @@ size_t i;
 if (!array)
 return (-1);
 
-= 0;
+i=0;
 while (i < size)
 {
 printf("Value checked array[%lu] = [%d]\n", i, array[i]);
